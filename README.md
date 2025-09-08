@@ -85,7 +85,7 @@ defaultProvider: hebo
 embedding:
   provider: hebo
   model: hebo-embeddings
-  baseUrl: https://api.hebo.ai/v1
+  baseUrl: https://legacy.api.hebo.ai/v1
   apiKey: ${HEBO_API_KEY} # Optional if HEBО_API_KEY is set in environment
 ```
 

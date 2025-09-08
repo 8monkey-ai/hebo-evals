@@ -352,7 +352,7 @@ describe('Embedding System', () => {
       );
       expect(result.metadata).toEqual(mockResponse.metadata);
       expect(mockFetch).toHaveBeenCalledWith(
-        'https://api.hebo.ai/v1/embeddings',
+        'https://legacy.api.hebo.ai/v1/embeddings',
         expect.objectContaining({
           method: 'POST',
           headers: expect.objectContaining({
