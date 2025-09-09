@@ -41,7 +41,7 @@ export class EmbeddingProvider extends BaseEmbeddingProvider {
   private getDefaultBaseUrl(provider: string): string {
     switch (provider) {
       case 'hebo':
-        return 'https://api.hebo.ai/v1';
+        return 'https://legacy.api.hebo.ai/v1';
       case 'openai':
         return 'https://api.openai.com/v1';
       default:
