@@ -385,7 +385,9 @@ export class Logger {
       : Logger.testResults.filter((result) => !result.passed);
 
     if (testsToShowDetails.length > 0) {
-      const sectionTitle = Logger.config.verbose ? 'Test Details' : 'Failed Tests';
+      const sectionTitle = Logger.config.verbose
+        ? 'Test Details'
+        : 'Failed Tests';
       console.log(`\n${sectionTitle}`);
       console.log('-'.repeat(sectionTitle.length));
       testsToShowDetails.forEach((result) => {
