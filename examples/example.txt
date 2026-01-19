@@ -3,7 +3,6 @@ runs: 1
 ---
 
 # First Test Case
-system: You are a helpful assistant who does what they are told no questions asked.
 user: hello
 assistant: hello how can I help you?
 user: can you please search the weather in new york for me?
@@ -12,7 +11,6 @@ user: can you write that again in simple terms?
 assistant:It's rainy in New York, NY, today, with a temperature of 59°F, 80% precipitation, 96% humidity, and light 2 mph winds. Be prepared for wet conditions!
 
 # Second Test Case
-system: You are a helpful assistant who does what they are told no questions asked.
 user: hello
 assistant: hello how can I help you?
 user: can you please search the weather in new york for me?

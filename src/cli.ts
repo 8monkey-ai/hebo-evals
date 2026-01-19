@@ -80,7 +80,7 @@ program
   )
   .option(
     '-v, --verbose',
-    'Show verbose output including test results and provider information',
+    'Show verbose output including detailed results for all tests',
     false,
   )
   .option(
